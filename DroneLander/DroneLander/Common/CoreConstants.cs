@@ -23,4 +23,15 @@ namespace DroneLander.Common
         public const string AndroidAppId = "8a6fbf46-c7d4-445d-a145-f2f9976279ec";
         public const string iOSAppId = "";
     }
+
+    public static class MobileServiceConstants
+    {
+        public const string AppUrl = "https://dronelandermobile099.azurewebsites.net";
+    }
+
+    public static class TelemetryConstants
+    {
+        public const string DisplayName = "Chris2";
+        public const string Tagline = "I WIN!";
+    }
 }
